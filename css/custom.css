@@ -1,0 +1,19 @@
+.csc-header > h2{
+	background-image: url("../img/logos/h1-pfeil-colorbox.png");
+	text-shadow: 1px 1px #000000;
+	background-repeat: no-repeat;
+    padding-left: 28px;
+    line-height: 30px;
+}
+.bg-light-blue{
+    background-color: #41bced70;
+    padding: 20px;
+    border-radius: 10px;
+}
+.csc-header.csc-header-n3 > h2{
+    background-image: url('');
+    text-shadow: 1px 1px #000000;
+	background-repeat: no-repeat;
+    padding-left: 28px;
+    line-height: 30px;
+}
