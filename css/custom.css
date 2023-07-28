@@ -17,3 +17,6 @@
     padding-left: 28px;
     line-height: 30px;
 }
+body, p{
+    color: #3e3e3eeb !important;
+}
