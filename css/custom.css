@@ -20,3 +20,17 @@
 body, p{
     color: #3e3e3eeb !important;
 }
+
+.dropdownlang:hover>.dropdown-menu {
+    display: block;
+  }
+  
+  .dropdownlang>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+.imggray{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}

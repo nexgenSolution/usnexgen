@@ -127,7 +127,7 @@
 												<ul class="nav nav-pills" id="mainNav">
 													<li><a href="index.html" class="nav-link active">Home</a></li>
 													<li><a href="#" class="nav-link">About</a></li>
-													<li class="dropdown">
+													<li class="dropdown" id="menudropdown">
 														<a href="#" class="nav-link dropdown-toggle">Products</a>
 														<ul class="dropdown-menu">
 															<li><a href="#" class="dropdown-item">Technology</a></li>
@@ -158,37 +158,25 @@
 												<i class="icons icon-phone text-3 text-color-dark position-relative top-3"></i>
 											</div>
 											<div class="header-extra-info-text line-height-2">
-												<span class="text-1 font-weight-semibold text-color-default">CALL US NOW</span>
+												<span class="text-1 font-weight-semibold text-color-default" id="call1">CALL US NOW</span>
 												<strong class="text-4"><a href="tel:+84 707 225 002" class="text-color-hover-primary text-decoration-none">+84 707 225 002</a></strong>
 											</div>
 										</li>
 									</ul>
 									<div class="d-flex col-auto pe-0 ps-0 ps-xl-3">
+										
 										<div class="header-nav-features ps-0 ms-1">
 											<!-- <div class="header-nav-feature header-nav-features-search d-inline-flex position-relative top-3 border border-top-0 border-bottom-0 custom-remove-mobile-border-left px-4 me-2"> -->
 											<div class="language header-nav-feature d-inline-flex position-relative top-3 border border-top-0 border-bottom-0">
 													<div class="language-selected">
-														<img src="https://cdn-icons-png.flaticon.com/512/330/330425.png" width="35px" alt="">
+														<img src="https://cdn-icons-png.flaticon.com/512/330/330425.png" class="en " width="35px" alt="">
 													</div>
-													<ul>
-														<li><a href="#" class="br">English</a></li> <!-- pt-BR -->
-														<li><a href="#" class="en">Tiếng Việt</a></li> <!-- en-US -->
-													</ul>
-												<!-- </div> -->
-												<!-- <a href="#" class="header-nav-features-toggle text-decoration-none" data-focus="headerSearch" aria-label="Search">
-													<i class="icons icon-magnifier header-nav-top-icon text-5 font-weight-bold position-relative top-3"></i>
-												</a> -->
-												<!-- <div class="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed border-radius-0" id="headerTopSearchDropdown">
-													<form role="search" action="https://www.okler.net/previews/porto/9.9.2/page-search-results.html" method="get">
-														<div class="simple-search input-group">
-															<input class="form-control text-1 rounded" id="headerSearch" name="q" type="search" value="" placeholder="Search...">
-															<button class="btn" type="submit" aria-label="Search">
-																<i class="icons icon-magnifier header-nav-top-icon"></i>
-															</button>
-														</div>
-													</form>
-												</div> -->
+													<div class="language-selected">
+														<img src="https://seeklogo.com/images/V/viet-nam-logo-3D78D597F9-seeklogo.com.png" class="vi" width="35px" alt="">
+													</div>
+												
 											</div>
+											
 											<div class="header-nav-feature header-nav-features-cart header-nav-features-cart-big d-inline-flex top-2 ms-2">
 												<!-- <a href="#" class="header-nav-features-toggle" aria-label="">
 													<img src="img/icons/icon-cart-big.svg" height="30" alt="" class="header-nav-top-icon-img">
@@ -384,14 +372,14 @@
 						<!-- Menu on the left -->
 						<div class="col-lg-4 order-lg-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
 							<div class="card box-shadow-1 custom-border-radius-1 mb-5">
-								<div class="card-body z-index-1 py-4 my-3">
+								<div class="card-body z-index-1 py-4 my-3" id="menuleft">
 									<h2 class="text-color-dark font-weight-bold text-6 mb-4">All Technologies</h2>
-									<ul class="custom-nav-list-effect-1 list list-unstyled mb-0">
+									<ul class="custom-nav-list-effect-1 list list-unstyled mb-0" id="submenuleft">
 										<!-- <li class="active">
 											<a href="#"class="text-decoration-none text-color-dark text-color-hover-primary text-3-5">Brake Repair</a>
 										</li> -->
 										<li>
-											<a href="#"class="text-decoration-none text-color-dark text-color-hover-primary text-3-5">Electrical Engineering</a>
+											<a href="elec-eng.html"class="text-decoration-none text-color-dark text-color-hover-primary text-3-5">Electrical Engineering</a>
 										</li>
 										<li>
 											<a href="#"class="text-decoration-none text-color-dark text-color-hover-primary text-3-5">Automotive Technology</a>
@@ -534,6 +522,7 @@
 									<a href="mailto:info@usnexgen.com" class="text-decoration-none text-color-light text-color-hover-default"><span>info@usnexgen.com</span></a>
 								</li>
 							</ul>
+							
 							<ul class="social-icons social-icons-medium">
 								<li class="social-icons-instagram">
 									<a href="http://www.instagram.com/" class="no-footer-css" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
@@ -569,7 +558,7 @@
 				<div class="footer-copyright bg-light py-4">
 					<div class="container py-2">
 						<div class="row">
-							<div class="col">s
+							<div class="col">
 								<p class="text-center text-3 mb-0">Porto Auto Services © 2023. All Rights Reserved.</p>
 							</div>
 						</div>
@@ -599,6 +588,8 @@
 
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
 
 	</body>
 

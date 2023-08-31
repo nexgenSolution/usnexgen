@@ -542,12 +542,9 @@ body {
 .language-selected:before {
     content: '';
     display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-image: url(https://www.countryflags.io/br/flat/32.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 10px;
+    width: 5px;
+    height: 5px;
+    margin-right: 10px; 
 }
 
 .language-selected.change-br:before {
@@ -606,11 +603,11 @@ body {
     margin-right: 10px;
 }
 
-a.br:before {
+a.en:before {
     background-image: url(https://cdn-icons-png.flaticon.com/512/330/330425.png);
 }
 
-a.en:before {
+a.vi:before {
     background-image: url(
     https://seeklogo.com/images/V/viet-nam-logo-3D78D597F9-seeklogo.com.png);
 }
