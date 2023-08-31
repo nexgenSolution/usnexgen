@@ -20,6 +20,7 @@
 body, p{
     color: #3e3e3eeb !important;
 }
+ul:nth-of-type(1)
 
 .dropdownlang:hover>.dropdown-menu {
     display: block;

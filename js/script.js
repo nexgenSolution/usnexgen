@@ -17,7 +17,9 @@ $(function() {
         $("#submenuleft").children().eq(4).text("Phương pháp học");
         $("#submenuleft").children().eq(5).text("Thiết bị đo và phân tích năng lương (CASSY)");
         $("#c7357 p:nth-child(1) b").text("Khám phá danh mục hệ thống đào tạo toàn diện của chúng tôi với các giải pháp của các thương hiệu công nghệ LEYBOLD, FEEDBACK và ELWE trong các lĩnh vực:");
-        $("#c7357 ul:nth-child(1) li:nth-child(1) ").text("minh");
+        $("#c7357 ul:nth-of-type(1) li:nth-child(1) span").text("minh1");
+        $("#c7357 ul:nth-of-type(1) li:nth-child(2) span").text("minh2");
+        $("#c7357 ul:nth-of-type(1) li:nth-child(3) span").text("minh3");
         $(".language-selected .en").css({"-webkit-filter": "grayscale(100%)","filter": "grayscale(100%)"});
         $(".language-selected .vi").css({"-webkit-filter": "grayscale(0%)","filter": "grayscale(0%)"});
         
