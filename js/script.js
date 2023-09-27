@@ -1,6 +1,8 @@
 //Vietnamese
 $(function() {
+    var lang;
     $.fn.changeToVn = function(){ 
+        lang = "vi";
         $("#mainNav li:nth-child(1) a").text("Trang chủ");
         $("#mainNav li:nth-child(2) a").text("Giới thiệu");
         $("#mainNav li:nth-child(3) a").text("Sản phẩm");
@@ -57,21 +59,13 @@ $(function() {
         $("#a1025").text("Nội thất phòng thí nghiệm khoa học được cung cấp bởi đối tác SYNERGIE Mobiliar GmbH của chúng tôi tại Syke/Đức.");
         $("#a1026").text("Thông tin chi tiết hơn có sẵn trong danh mục trực tuyến của chúng tôi ");
         $("#a1026 + a").text("tại đây");
-
-
-
-
-
-
-
-
-
-
         $(".language-selected .en").css({"-webkit-filter": "grayscale(100%)","filter": "grayscale(100%)"});
         $(".language-selected .vi").css({"-webkit-filter": "grayscale(0%)","filter": "grayscale(0%)"});
+        $("#a2000").text("Hãy cho tôi một điểm tựa, tôi sẽ di chuyển thế giới này");
     
     }
     $.fn.changeToEn = function(){
+        lang = "en";
         $("#mainNav li:nth-child(1) a").text("Home");
         $("#mainNav li:nth-child(2) a").text("About");
         $("#mainNav li:nth-child(3) a").text("Products");
@@ -127,41 +121,44 @@ $(function() {
         $("#a1025").text("Scientific laboratory furniture is provided by our partner SYNERGIE Mobiliar GmbH in Syke/Germany.");
         $("#a1026").text("More detailed information is available in our online catalog ");
         $("#a1026 + a").text("here");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         $(".language-selected .vi").css({"-webkit-filter": "grayscale(100%)","filter": "grayscale(100%)"});
         $(".language-selected .en").css({"-webkit-filter": "grayscale(0%)","filter": "grayscale(0%)"});
+        $("#a2000").text("Give me a place to stand, and a lever long enough, and I will move the world");
     }
-    var lang;
+    
     $(".vi").click(function() {
         $.fn.changeToVn();
-       lang = "vi";
+       
+        console.log(lang);
     });
     $(".en").click(function() {
         $.fn.changeToEn();
-        lang = "en";
+        console.log(lang);
     });
+    
+   
 //     var params = new window.URLSearchParams(window.location.search);    
 // console.log(params);
-function getURLParams(url) {
+    function getURLParams(url) {
     return Object.fromEntries(new URL(url).searchParams.entries());
-  }
+    }
   
   var params = getURLParams(window.location.href);
-  console.log(params);
-  console.log(params['viq']);
+//   console.log(params);
+  if(params['vi'] == ""){
     $.fn.changeToVn();
     console.log(lang);
+  }
+  if(params['en'] == ""){
+    $.fn.changeToEn();
+  }
+  if(typeof lang == "undefined"){
+    $.fn.changeToVn();
+  }
+  $("a").click(function(){
+    var oldHref = $(this).attr("href");
+    $(this).attr("href",oldHref+"?"+lang);
+    console.log(lang);
+   });
+
 });
