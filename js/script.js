@@ -111,6 +111,7 @@ $(function() {
         $("#a1018 + ul > li:nth-child(2) b").text("Technical colleges and schools");
         $("#a1018 + ul > li:nth-child(3) b").text("On-the-job training facilities");
         $("#a1018 + ul > li:nth-child(4) b").text("Colleges and universities");
+        $("#a1019").text("Facility and Lab Planning and Installation: Lab Furniture and Power Supplies");
         $("#a1020 > span:nth-of-type(1)").text("Our room planners custom design your laboratory simply by tailoring the desired experiment equipment, furniture and storage solutions to your specific needs.");
         $("#a1020 > span:nth-of-type(2)").text("Thanks to our many years of experience, we are reliable partners in all phases of project planning from conception to implementation.");
         $("#a1021").text("LABORATORY FURNITURE FOR THE TRAINING IN ELECTRICAL ENGINEERING/ELECTRONICS AND AUTOMOTIVE ENGINEERING (VOCATIONAL TRAINING)");
@@ -150,6 +151,6 @@ $(function() {
     $(".en").click(function() {
         $.fn.changeToEn();
     });
-    //$.fn.changeToVn();
+    $.fn.changeToVn();
 
 });
