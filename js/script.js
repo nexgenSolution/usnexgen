@@ -144,13 +144,24 @@ $(function() {
         $(".language-selected .vi").css({"-webkit-filter": "grayscale(100%)","filter": "grayscale(100%)"});
         $(".language-selected .en").css({"-webkit-filter": "grayscale(0%)","filter": "grayscale(0%)"});
     }
+    var lang;
     $(".vi").click(function() {
         $.fn.changeToVn();
-       
+       lang = "vi";
     });
     $(".en").click(function() {
         $.fn.changeToEn();
+        lang = "en";
     });
+//     var params = new window.URLSearchParams(window.location.search);    
+// console.log(params);
+function getURLParams(url) {
+    return Object.fromEntries(new URL(url).searchParams.entries());
+  }
+  
+  var params = getURLParams(window.location.href);
+  console.log(params);
+  console.log(params['viq']);
     $.fn.changeToVn();
-
+    console.log(lang);
 });
