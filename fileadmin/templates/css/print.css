@@ -1,0 +1,39 @@
+
+.header_nav, #navigation , #sidebar, .header .right, #footer, .csc-menu, #cookie-note, .print.right, #to_top{display:none;}
+
+#content_wrap {
+    float: left !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+#breadcrumb { margin: 0 !important;}
+#breadcrumb a {background:none; margin:0;}
+#breadcrumb a:after{
+	content:">";
+	padding-left:10px;
+	color: #333;
+}
+
+
+
+/* deactivate image position middle and right above or below text */
+div.csc-textpic-center div.csc-textpic-imagewrap {margin: 0;}
+div.csc-textpic-right div.csc-textpic-imagewrap {width: 100%;}
+div.csc-textpic-center {text-align: left;}
+
+/* line break for pre */
+pre {white-space: pre-wrap;}
+
+/* tables */
+thead {display: table-header-group;}
+tr {page-break-inside: avoid;}
+
+#content a[href]:after, #breadcrumb a[href]:after {
+		content: "";
+}
+
+#content a.external-link[href]:after, #content a.external-link-new-window[href]:after, #content a[href^="http"]:after {
+	content: " (" attr(href) ")";  font-style: italic; text-transform:lowercase; font-size:12px; font-weight:normal;
+}
+
+.csc-default, .breite, .grid_2, .grid_4 {page-break-inside:avoid;}
