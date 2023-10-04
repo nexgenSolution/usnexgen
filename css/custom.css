@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*:not(i){
+    font-family: 'Open Sans', sans-serif!important;
+
+}
 .csc-header > h2{
-	background-image: url("../img/logos/h1-pfeil-colorbox.png");
-	text-shadow: 1px 1px #000000;
+	/* background-image: url("../img/logos/h1-pfeil-colorbox.png"); */
+	/* text-shadow: 1px 1px #000000; */
 	background-repeat: no-repeat;
     padding-left: 28px;
     line-height: 30px;
@@ -12,7 +17,7 @@
 }
 .csc-header.csc-header-n3 > h2{
     background-image: url('');
-    text-shadow: 1px 1px #000000;
+    /* text-shadow: 1px 1px #000000; */
 	background-repeat: no-repeat;
     padding-left: 28px;
     line-height: 30px;

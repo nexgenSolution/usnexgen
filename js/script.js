@@ -11,7 +11,7 @@ $(function() {
         $("#menudropdown ul:nth-child(2) li:nth-child(2) a").text("Vật lý");
         $("#menudropdown ul:nth-child(2) li:nth-child(3) a").text("Hóa học");
         $("#menudropdown ul:nth-child(2) li:nth-child(4) a").text("Sinh học");
-        $("#menuleft").children().eq(0).text("Tất cả các công nghệ");
+        // $("#menuleft").children().eq(0).text("Tất cả các công nghệ");
         $("#submenuleft li:nth-child(1) a ").text("Kỹ thuật điện tử");
         // $("#submenuleft").children().eq(0).text("Kỹ thuật điện tử");
         $("#submenuleft li:nth-child(2) a ").text("Công nghệ ô tô");
@@ -74,10 +74,10 @@ $(function() {
         $("#menudropdown ul:nth-child(2) li:nth-child(2) a").text("Physics");
         $("#menudropdown ul:nth-child(2) li:nth-child(3) a").text("Chemistry");
         $("#menudropdown ul:nth-child(2) li:nth-child(4) a").text("Biology");
-        $("#menuleft").children().eq(0).text("All Technologies");
+        // $("#menuleft").children().eq(0).text("All Technologies");
         $("#submenuleft li:nth-child(1) a ").text("Electrical Engineering");
         $("#submenuleft li:nth-child(2) a ").text("Automotive Technology");
-        $("#submenuleft li:nth-child(3) a ").text("COM4LAB");
+        $("#submenuleft li:nth-child(3)  a ").text("COM4LAB");
         $("#submenuleft li:nth-child(4) a ").text("Regenerative Energy");
         $("#submenuleft li:nth-child(5) a ").text("Learning Methods");
         $("#submenuleft li:nth-child(6) a ").text("Power Analyser CASSY");

@@ -2010,6 +2010,9 @@ ul#navigation li .sub_lvl3 a:hover {
 	background: #1d1d1b;
 }
 
+p{
+	font-size: 1rem!important;
+}
 .box_tech_kfz_technik>div,
 .sidebar_tech_kfz_technik div>ul {
 	background: #1d71b8;
@@ -2017,7 +2020,7 @@ ul#navigation li .sub_lvl3 a:hover {
 
 .box_tech_elekt_antriebe>div,
 .sidebar_tech_elekt_antriebe div>ul {
-	background: #f7a600;
+	background: #41bced70;
 }
 
 .box_tech_erneu_energien>div,
