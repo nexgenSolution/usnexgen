@@ -15,7 +15,15 @@ $(function() {
         $("#submenuleft li:nth-child(1) a ").text("Kỹ thuật điện tử");
         // $("#submenuleft").children().eq(0).text("Kỹ thuật điện tử");
         $("#submenuleft li:nth-child(2) a ").text("Công nghệ ô tô");
-        $("#submenuleft li:nth-child(3) a ").text("Chương trình đào tạo COM4LAB");
+        $("#submenuleft li:nth-child(3) > a ").text("Chương trình đào tạo COM4LAB");
+        $("#subsubmenuleft li:nth-child(1) > a ").text("System at a Glance");
+        $("#subsubmenuleft li:nth-child(2) > a ").text("COM4LAB Hardware");
+        $("#subsubmenuleft li:nth-child(3) > a ").text("Interactive Courses");
+        
+        $("#subsubmenuleft li:nth-child(4) > a ").text("Digital Education");
+        $("#subsubmenuleft li:nth-child(5) > a ").text("Various Learning Locations");
+        $("#subsubmenuleft li:nth-child(6) > a ").text("Comprehensive Curriculus");
+        $("#subsubmenuleft li:nth-child(7) > a ").text("Course Overview");
         $("#submenuleft li:nth-child(4) a ").text("Năng lượng tái tạo");
         $("#submenuleft li:nth-child(5) a ").text("Phương pháp học");
         $("#submenuleft li:nth-child(6) a ").text("Thiết bị đo và phân tích năng lượng (CASSY)");
@@ -77,7 +85,15 @@ $(function() {
         // $("#menuleft").children().eq(0).text("All Technologies");
         $("#submenuleft li:nth-child(1) a ").text("Electrical Engineering");
         $("#submenuleft li:nth-child(2) a ").text("Automotive Technology");
-        $("#submenuleft li:nth-child(3)  a ").text("COM4LAB");
+        $("#submenuleft li:nth-child(3) > a ").text("COM4LAB");
+        $("#subsubmenuleft li:nth-child(1) > a ").text("System at a Glance");
+        $("#subsubmenuleft li:nth-child(2) > a ").text("COM4LAB Hardware");
+        $("#subsubmenuleft li:nth-child(3) > a ").text("Interactive Courses");
+        
+        $("#subsubmenuleft li:nth-child(4) > a ").text("Digital Education");
+        $("#subsubmenuleft li:nth-child(5) > a ").text("Various Learning Locations");
+        $("#subsubmenuleft li:nth-child(6) > a ").text("Comprehensive Curriculus");
+        $("#subsubmenuleft li:nth-child(7) > a ").text("Course Overview");
         $("#submenuleft li:nth-child(4) a ").text("Regenerative Energy");
         $("#submenuleft li:nth-child(5) a ").text("Learning Methods");
         $("#submenuleft li:nth-child(6) a ").text("Power Analyser CASSY");
@@ -153,7 +169,7 @@ $(function() {
     $.fn.changeToEn();
   }
   if(typeof lang == "undefined"){
-    $.fn.changeToVn();
+    $.fn.changeToEn();
   }
   $("a").click(function(){
     var oldHref = $(this).attr("href");
