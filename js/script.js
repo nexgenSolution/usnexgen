@@ -180,15 +180,37 @@
 // });
 // 👇️ One, Two, Three
 let vars = '';
+
+$(function() {
+    let map = ["automative","automotive-technology","fundamentals-electr-on-ics-and-multimedia","fundamentals-with-ste","basics-of-complete-systems-with-ste","vehicle-electrics","power-supply","lighting-systems","networking-lighting-systems","backfitting-electrical-systems","combustion-engine","ignition-systems","motor-management-systems-petrol", "driver-assistance-and-comfort-systems","automation","driver-assistance-systems","chassis-and-drive-train","braking-systems","steering-system","automotive-networking-and-diagnosis-systems","networking-automotive-systems","diagnosis","electromobility"];
+    let fullver = ["Automative","Automotive Technology","Fundamentals electr(on)ics and Multimedia","Fundamentals with STE","Basics of complete systems with STE","Vehicle Electrics","Power Supply","Lighting systems","Networking lighting systems","Backfitting electrical systems","Combustion Engine","Ignition Systems","Motor Management Systems Petrol", "Driver Assistance and Comfort Systems","Automation","Driver Assistance Systems","Chassis and Drive Train","Braking Systems","Steering System","Automotive Networking and Diagnosis Systems","Networking Automotive Systems","Diagnosis","Electromobility"];
+    $.fn.changeText = function(){
+        $(".tagslink").each(function () {
+            var $this = $(this);
+            var string = $this.text();
+            for (let index = 0; index < map.length; index++) {
+                const element = map[index];
+                if(string == element){
+                    $this.text(fullver[index]);
+                    break;
+                }
+            }
+        });
+    }
+    $.fn.changeText();
+});
+
+
 $("#nav-sets").find("a").each((i,v)=>{
-    var texta = $(v).text().split(" ").join("");
+    var link = $(v).text();
+    var texta = link.replace(/\s/g, '');
     $(v).attr("href","/"+texta);
 });
 
-console.log(vars)
+
 $("#nav-sets-tab").click(function(){
     var a =	$(".box-productlist a").text();
-    console.log(a);
+    // console.log(a);
 });
 
 function change_image(image){
@@ -197,6 +219,7 @@ function change_image(image){
 
    container.src = image.src;
 }
+
 
 document.addEventListener("DOMContentLoaded", function(event) {
 });
