@@ -204,7 +204,7 @@ $(function() {
 $("#nav-sets").find("a").each((i,v)=>{
     var link = $(v).text();
     var texta = link.replace(/\s/g, '');
-    $(v).attr("href","/"+texta);
+    $(v).attr("href","/"+texta.toLowerCase());
 });
 
 
