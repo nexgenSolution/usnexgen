@@ -34,7 +34,30 @@
 				overflow: hidden;
 				height: 100%;
 			}
-			
+			@media screen and (orientation: portrait) {
+				.bg-img1 img:first-child{
+					display: none;
+				}
+				.bg-img1 img:nth-child(2){
+					display: block;
+					height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+  					height: calc(var(--vh, 1vh) * 100);
+				}
+			}
+			@media screen and (orientation: landscape) {
+				.bg-img1 img:first-child{	
+					display: block;	
+					height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+  					height: calc(var(--vh, 1vh) * 100);
+					/* align-items:stretch;
+					align-content:stretch; */
+					/* height: 100vh; */
+					/* min-height: -webkit-calc(100% - 65px); google, safari; */
+				}
+				.bg-img1 img:nth-child(2){
+					display: none;
+				}
+			} 
 		</style>
 
 		
@@ -44,12 +67,13 @@
 			<div class="carousel-inner">
 			  <div class="carousel-item active bg-img1" data-bs-interval="10000">
 				<img src="/img/1920x1080dannang.png" class="d-block w-100" alt="...">
-				
+				<img src="/img/vertical-1031DN.png" class="d-block w-100" alt="...">
 				
 				
 			  </div>
 			  <div class="carousel-item bg-img1" data-bs-interval="2000">
 				<img src="/img/1920x1080quynhon.png" class="d-block w-100" alt="...">
+				<img src="/img/1920x2400okQuynhondoc.png" class="d-block w-100" alt="...">
 				
 				
 			  </div>
