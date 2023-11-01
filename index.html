@@ -34,6 +34,11 @@
 				overflow: hidden;
 				height: 100%;
 			}
+			.carousel .carousel-indicators button {
+				width: 10px;
+			   height: 10px;
+			   border-radius: 100%;
+			 }
 			@media screen and (orientation: portrait) {
 				.bg-img1 img:first-child{
 					display: none;
@@ -63,7 +68,11 @@
 		
 	</head>
 	<body>
-		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+		<div id="demo" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              </div>
 			<div class="carousel-inner">
 			  <div class="carousel-item active bg-img1" data-bs-interval="10000">
 				<img src="/img/1920x1080dannang.png" class="w-100" alt="...">
@@ -78,11 +87,11 @@
 				
 			  </div>
 			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
 			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			  <span class="visually-hidden">Previous</span>
 			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
 			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			  <span class="visually-hidden">Next</span>
 			</button>
