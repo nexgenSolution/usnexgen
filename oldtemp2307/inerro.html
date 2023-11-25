@@ -34,6 +34,11 @@
 				overflow: hidden;
 				height: 100%;
 			}
+			.carousel .carousel-indicators button {
+				width: 10px;
+			   height: 10px;
+			   border-radius: 100%;
+			 }
 			@media screen and (orientation: portrait) {
 				.bg-img1 img:first-child{
 					display: none;
@@ -63,25 +68,44 @@
 		
 	</head>
 	<body>
-		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            
+		
+		<div id="demo" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+              </div>
 			<div class="carousel-inner">
 			  <div class="carousel-item active bg-img1" data-bs-interval="10000">
-				<img src="/img/1920x1080dannang.png" class="w-100" alt="...">
-				<img src="/img/vertical-1031DN.png" class="w-100" alt="...">
+				 <a href="https://drive.google.com/file/d/1A1IVMr-WJZ5J8gRX6CjawCDdIjyk_v7K/view?usp=sharing">
+				<img src="/img/1920x1080dannang01ok.png" class="w-100" alt="Workplace" usemap="#workmap">
+					  <map name="workmap">
+						<area shape="rect" coords="1200,550,1280,625" alt="ngang" href="https://drive.google.com/file/d/1A1IVMr-WJZ5J8gRX6CjawCDdIjyk_v7K/view?usp=sharing">
+						</map>
+				<img src="/img/1920x2400okdanangdoc01.png" class="w-100" alt="Workplace" usemap="#workmap1">
+				<map name="workmap1">
+					<area shape="rect" coords="1200,550,1280,625" alt="ngang" href="https://drive.google.com/file/d/1A1IVMr-WJZ5J8gRX6CjawCDdIjyk_v7K/view?usp=sharing">
+					</map>
+				 </a>
+	  </div>
+			  <div class="carousel-item bg-img1" data-bs-interval="10000">
+				  <a href="https://drive.google.com/file/d/1A1IVMr-WJZ5J8gRX6CjawCDdIjyk_v7K/view?usp=sharing">
+				<img src="/img/1920x1080quynhon.png" class="w-100" alt="Workplace" usemap="#workmap2">
+					 <map name="workmap2">
+						<area shape="rect" coords="1200,550,1280,625" alt="ngang" href="https://drive.google.com/file/d/1A1IVMr-WJZ5J8gRX6CjawCDdIjyk_v7K/view?usp=sharing">
+						</map>
+				<img src="/img/1920x2400okQuynhondoc.png" class="w-100" alt="Workplace" usemap="#workmap1">
+					<map name="workmap1">
+  <area shape="rect" coords="1200,550,1280,625" alt="dung" href="https://drive.google.com/file/d/1A1IVMr-WJZ5J8gRX6CjawCDdIjyk_v7K/view?usp=sharing">
+</map>  
+				  </a>
 				
-				
-			  </div>
-			  <div class="carousel-item bg-img1" data-bs-interval="2000">
-				<img src="/img/1920x1080quynhon.png" class="w-100" alt="...">
-				<img src="/img/1920x2400okQuynhondoc.png" class="w-100" alt="...">			
 			  </div>
 			</div>
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
 			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			  <span class="visually-hidden">Previous</span>
 			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next" style="width: 8%;">
 			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			  <span class="visually-hidden">Next</span>
 			</button>
