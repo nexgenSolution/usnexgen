@@ -198,7 +198,25 @@ $(function() {
         });
     }
     $.fn.changeText();
+    
 });
+
+// $(window).resize(function(){
+//     location.reload();
+//     let vh = window.innerHeight * 0.01;
+//     console.log(vh);
+//     var pairs = $("area#ngang").attr("coords").split(', ');
+// 			for(var i=0; i<pairs.length; i++) {
+// 				var nums = pairs[i].split(',');
+// 				for(var j=0; j<nums.length; j++) {
+//                     if(j==0 || j==2)
+// 					    nums[j] = parseInt(nums[j]-(425));
+// 				}
+// 				pairs[i] = nums.join(',');
+// 			}
+//             console.log(pairs);
+// 			$("area#ngang").attr("coords", pairs.join(', '));
+// });
 
 
 $("#nav-sets").find("a").each((i,v)=>{
@@ -212,6 +230,7 @@ $("#nav-sets-tab").click(function(){
     var a =	$(".box-productlist a").text();
     // console.log(a);
 });
+
 
 function change_image(image){
 
