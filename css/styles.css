@@ -1912,7 +1912,7 @@ ul#navigation li .sub_lvl3 a:hover {
 
 .box_physik_systeme>div,
 .sidebar_physik_systeme div>ul {
-	background: #b4b3b3;
+	background: #706f6f;
 }
 
 .box_physik_systeme10>div,
@@ -2015,7 +2015,7 @@ p{
 }
 .box_tech_kfz_technik>div,
 .sidebar_tech_kfz_technik div>ul {
-	background: #77bcf3;
+	background: #1d71b8;
 }
 
 .box_tech_elekt_antriebe>div,
@@ -4599,3 +4599,5 @@ div#content_wrap div#katalog_slider {
 	width: auto;
 	padding: 0.85em 2em;
 }
+
+

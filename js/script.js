@@ -182,8 +182,9 @@
 let vars = '';
 
 $(function() {
-    let map = ["automative","automotive-technology","fundamentals-electr-on-ics-and-multimedia","fundamentals-with-ste","basics-of-complete-systems-with-ste","vehicle-electrics","power-supply","lighting-systems","networking-lighting-systems","backfitting-electrical-systems","combustion-engine","ignition-systems","motor-management-systems-petrol", "driver-assistance-and-comfort-systems","automation","driver-assistance-systems","chassis-and-drive-train","braking-systems","steering-system","automotive-networking-and-diagnosis-systems","networking-automotive-systems","diagnosis","electromobility"];
-    let fullver = ["Automative","Automotive Technology","Fundamentals electr(on)ics and Multimedia","Fundamentals with STE","Basics of complete systems with STE","Vehicle Electrics","Power Supply","Lighting systems","Networking lighting systems","Backfitting electrical systems","Combustion Engine","Ignition Systems","Motor Management Systems Petrol", "Driver Assistance and Comfort Systems","Automation","Driver Assistance Systems","Chassis and Drive Train","Braking Systems","Steering System","Automotive Networking and Diagnosis Systems","Networking Automotive Systems","Diagnosis","Electromobility"];
+    let map = ["automative","automotive-technology","fundamentals-electr-on-ics-and-multimedia","fundamentals-with-ste","basics-of-complete-systems-with-ste","vehicle-electrics","power-supply","lighting-systems","networking-lighting-systems","backfitting-electrical-systems","combustion-engine","ignition-systems","motor-management-systems-petrol", "driver-assistance-and-comfort-systems","automation","driver-assistance-systems","chassis-and-drive-train","braking-systems","steering-system","automotive-networking-and-diagnosis-systems","networking-automotive-systems","diagnosis","electromobility","electrical-engineering","fundamentals-of-electronics-and-electrics","fundamentals","basics-of-electricity","dc-technology-e1","dc-technology-me","ac-technology-e1","ac-technology-me","threephase-technology","didactic-electrical-machines","basics-of-electronics","pre-mounted-trainers","electrical-drives","educationally-designed-machines","electrical-machine-teaching-models-elm","basics-of-single-phase-and-three-phase-energy-networks","electrical-machine-training-system","industrial-machines-with-exchangeable-rotors","industrial-machines-300-w","transformers-300-w","dc-machines-300-w","ac-machines-300-w","three-phase-asynchronous-machines-300-w","three-phase-synchronous-machines-300-w","mechatronic-motors-300-w","industrial-machines-1-kw","transformers-1-kw","dc-machines-1-kw","ac-machines-1-kw","three-phase-asynchronous-machines-1-kw","three-phase-synchronous-machines-with-separate-excitation-1-kw","power-electronics","line-commutated-converters","self-commutated-converters","drive-technology","industrial-dc-drives","industrial-three-phase-drives","load-behaviour-of-drives","servo-technology","electronically-commutated-machines","industrial-servos-300-w","electrical-power-engineering-375","electrical-power-generation","electrical-power-transmission-and-distribution","energy-consumption","protective-systems","plug-in-models-for-power-engineering","smart-grid","building-technology","house-installation-technology","installation-circuits-panel-system","installation-circuits-module-system","photovoltaic-systems","protection-circuits","smart-building","european-installation-bus-eib-knx","communications-technology","transmission-technology","analogue-transmission-technology","digital-transmission-technology","noise-and-modulation","telecommunications-with-fibre-optics","high-frequency-technology","micro-wave-technology","point-to-point-radio-system","antenna-technology","control-engineering-and-automation","measurement-technology-sensors","measuring-electrical-quantities","measuring-non-electrical-quantities","didactic-control-technology","control-technology-with-cassy","cbt-mutlimedia-control-technology","applied-control-technology","technically-controlled-systems","servo-control","process-engineering","systems-and-components-of-control-engineering","industrial-control-systems","open-loop-control-engineering","automation-technology","process-automation","hydraulics","didactical-hydraulics","com4lab","com4lab-automotive-technology","electrics","sensor-technology","digital-technology","bus-systems","com4lab-electrical-engineering","circuit-technology","dc-technology","ac-technology","electronic-components","digital-technology-me","circuit-design","electrical-drives-1","motors-and-generators","power-electronics","electrical-power-engineering","telecommunications-engineering","transmission-technology-2","transmission-channels","control-engineering-and-automation-c","measurement-technology-and-sensors","control-technology","automation-technology-c","com4lab-product-catalogue","master-unit-and-accessories","boards-and-accessories","courses","logic-controllers-and-process-visualization","plc-and-process-visualization","industrial-bus-systems","industrial-controllers-controlled-systems","hand-s-on-training-systems-with-industrial-components","technical-processes-with-large-scale-models","basics-of-open-loop-control","industrial-controls","plant-simulation","mechatronics","chemical-process-engineering"];
+    
+    let fullver = ["Automative","Automotive Technology","Fundamentals Electr(On)Ics And Multimedia","Fundamentals With STE","Basics Of Complete Systems With STE","Vehicle Electrics","Power Supply","Lighting Systems","Networking Lighting Systems","Backfitting Electrical Systems","Combustion Engine","Ignition Systems","Motor Management Systems Petrol", "Driver Assistance And Comfort Systems","Automation","Driver Assistance Systems","Chassis And Drive Train","Braking Systems","Steering System","Automotive Networking And Diagnosis Systems","Networking Automotive Systems","Diagnosis","Electromobility","Electrical Engineering","Fundamentals Of Electronics And Electrics","Fundamentals","Basics Of Electricity","DC Technology","DC Technology","AC Technology","AC Technology","Threephase Technology","Didactic Electrical Machines","Basics Of Electronics","Pre Mounted Trainers","Electrical Drives","Educationally Designed Machines","Electrical Machine Teaching Models Elm","Basics Of Single Phase And Three Phase Energy Networks","Electrical Machine Training System","Industrial Machines With Exchangeable Rotors","Industrial Machines 300 W","Transformers 300 W","Dc Machines 300 W","Ac Machines 300 W","Three Phase Asynchronous Machines 300 W","Three Phase Synchronous Machines 300 W","Mechatronic Motors 300 W","Industrial Machines 1 Kw","Transformers 1 Kw","Dc Machines 1 Kw","Ac Machines 1 Kw","Three Phase Asynchronous Machines 1 Kw","Three Phase Synchronous Machines With Separate Excitation 1 Kw","Power Electronics","Line Commutated Converters","Self Commutated Converters","Drive Technology","Industrial Dc Drives","Industrial Three Phase Drives","Load Behaviour Of Drives","Servo Technology","Electronically Commutated Machines","Industrial Servos 300 W","Electrical Power Engineering","Electrical Power Generation","Electrical Power Transmission And Distribution","Energy Consumption","Protective Systems","Plug In Models For Power Engineering","Smart Grid","Building Technology","House Installation Technology","Installation Circuits Panel System","Installation Circuits Module System","Photovoltaic Systems","Protection Circuits","Smart Building","European Installation Bus Eib Knx","Communications Technology","Transmission Technology","Analogue Transmission Technology","Digital Transmission Technology","Noise And Modulation","Telecommunications With Fibre Optics","High Frequency Technology","Micro Wave Technology","Point To Point Radio System","Antenna Technology","Control Engineering And Automation","Measurement Technology Sensors","Measuring Electrical Quantities","Measuring Non Electrical Quantities","Didactic Control Technology","Control Technology With Cassy","Cbt Mutlimedia Control Technology","Applied Control Technology","Technically Controlled Systems","Servo Control","Process Engineering","Systems And Components Of Control Engineering","Industrial Control Systems","Open Loop Control Engineering","Automation Technology","Process Automation","Hydraulics","Didactical Hydraulics","COM4LAB","COM4LAB Automotive Technology","Electrics","Sensor Technology","Digital Technology","Bus Systems","COM4LAB Electrical Engineering","Circuit Technology","Dc Technology","Ac Technology","Electronic Components","Digital Technology","Circuit Design","Electrical Drives","Motors And Generators","Power Electronics","Electrical Power Engineering","Telecommunications Engineering","Transmission Technology","Transmission Channels","Control Engineering And Automation","Measurement Technology And Sensors","Control Technology","Automation Technology","COM4LAB Product Catalogue","Master Unit And Accessories","Boards And Accessories","Courses","Logic Controllers and Process Visualization","Plc and Process Visualization","Industrial Bus Systems","Industrial Controllers Controlled Systems","Hands on Training Systems with Industrial Components","Technical Processes with Large Scale Models","Basics of Open Loop Control","Industrial Controls","Plant Simulation","Mechatronics","Chemical Process Engineering"];
     $.fn.changeText = function(){
         $(".tagslink").each(function () {
             var $this = $(this);
@@ -198,31 +199,13 @@ $(function() {
         });
     }
     $.fn.changeText();
-    
 });
-
-// $(window).resize(function(){
-//     location.reload();
-//     let vh = window.innerHeight * 0.01;
-//     console.log(vh);
-//     var pairs = $("area#ngang").attr("coords").split(', ');
-// 			for(var i=0; i<pairs.length; i++) {
-// 				var nums = pairs[i].split(',');
-// 				for(var j=0; j<nums.length; j++) {
-//                     if(j==0 || j==2)
-// 					    nums[j] = parseInt(nums[j]-(425));
-// 				}
-// 				pairs[i] = nums.join(',');
-// 			}
-//             console.log(pairs);
-// 			$("area#ngang").attr("coords", pairs.join(', '));
-// });
 
 
 $("#nav-sets").find("a").each((i,v)=>{
     var link = $(v).text();
     var texta = link.replace(/\s/g, '');
-    $(v).attr("href","/"+texta.toLowerCase());
+    $(v).attr("href","/"+texta);
 });
 
 
@@ -230,7 +213,6 @@ $("#nav-sets-tab").click(function(){
     var a =	$(".box-productlist a").text();
     // console.log(a);
 });
-
 
 function change_image(image){
 

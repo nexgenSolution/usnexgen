@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on NEXGEN SOLUTIONS</title>
+    <title>Tags on NEXGEN SOLUTION</title>
     <link>https://example.org/tags/</link>
-    <description>Recent content in Tags on NEXGEN SOLUTIONS</description>
+    <description>Recent content in Tags on NEXGEN SOLUTION</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -16,11 +16,20 @@
     </item>
     
     <item>
-      <title>ac-technology</title>
-      <link>https://example.org/tags/ac-technology/</link>
+      <title>ac-technology-e1</title>
+      <link>https://example.org/tags/ac-technology-e1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/tags/ac-technology/</guid>
+      <guid>https://example.org/tags/ac-technology-e1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ac-technology-me</title>
+      <link>https://example.org/tags/ac-technology-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/ac-technology-me/</guid>
       <description></description>
     </item>
     
@@ -138,6 +147,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.org/tags/automation-technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automation-technology-c</title>
+      <link>https://example.org/tags/automation-technology-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/automation-technology-c/</guid>
       <description></description>
     </item>
     
@@ -273,6 +291,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.org/tags/battery-technology-ste/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bell-system-and-door-opener-module-system-supplementary-equipment</title>
+      <link>https://example.org/tags/bell-system-and-door-opener-module-system-supplementary-equipment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/bell-system-and-door-opener-module-system-supplementary-equipment/</guid>
       <description></description>
     </item>
     
@@ -745,6 +772,15 @@
     </item>
     
     <item>
+      <title>control-engineering-and-automation-c</title>
+      <link>https://example.org/tags/control-engineering-and-automation-c/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/control-engineering-and-automation-c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>control-of-airflow</title>
       <link>https://example.org/tags/control-of-airflow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -790,11 +826,20 @@
     </item>
     
     <item>
-      <title>dc-technology</title>
-      <link>https://example.org/tags/dc-technology/</link>
+      <title>dc-technology-e1</title>
+      <link>https://example.org/tags/dc-technology-e1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/tags/dc-technology/</guid>
+      <guid>https://example.org/tags/dc-technology-e1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dc-technology-me</title>
+      <link>https://example.org/tags/dc-technology-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/dc-technology-me/</guid>
       <description></description>
     </item>
     
@@ -858,6 +903,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.org/tags/digital-technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>digital-technology-me</title>
+      <link>https://example.org/tags/digital-technology-me/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/digital-technology-me/</guid>
       <description></description>
     </item>
     
@@ -984,6 +1038,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.org/tags/electrical-drives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electrical-drives-1</title>
+      <link>https://example.org/tags/electrical-drives-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/electrical-drives-1/</guid>
       <description></description>
     </item>
     
@@ -2208,6 +2271,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.org/tags/transmission-technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transmission-technology-2</title>
+      <link>https://example.org/tags/transmission-technology-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/transmission-technology-2/</guid>
       <description></description>
     </item>
     

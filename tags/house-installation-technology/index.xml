@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>house-installation-technology on NEXGEN SOLUTIONS</title>
+    <title>house-installation-technology on NEXGEN SOLUTION</title>
     <link>https://example.org/tags/house-installation-technology/</link>
-    <description>Recent content in house-installation-technology on NEXGEN SOLUTIONS</description>
+    <description>Recent content in house-installation-technology on NEXGEN SOLUTION</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://example.org/tags/house-installation-technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -75,6 +75,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://example.org/e4.1.2.2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.org/e4.1.2.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/e4.1.2.3/</guid>
       <description></description>
     </item>
     
